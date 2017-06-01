@@ -15,7 +15,7 @@ app.engine('ejs', engine);
 app.set('view engine', 'ejs');
 
 var routes = require('./routes/index.js');
-
+app.use(routes);
 
 app.listen(4000, () => {
     console.log('Awesome server running on port 4000');
