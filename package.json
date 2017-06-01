@@ -1,0 +1,23 @@
+{
+  "name": "realtimepolls",
+  "version": "1.0.0",
+  "description": "A real time vote poll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CherutoMercy/RealTimePolls.git"
+  },
+  "author": "msamoxilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CherutoMercy/RealTimePolls/issues"
+  },
+  "homepage": "https://github.com/CherutoMercy/RealTimePolls#readme",
+  "dependencies": {
+    "ejs-mate": "^2.3.0",
+    "path": "^0.12.7"
+  }
+}
