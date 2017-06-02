@@ -11,3 +11,5 @@ The major work involved will be for the following:
 3. Generating poll visualizations (something like **D3.js**) 
 
 ![Cover Image Picked Randomly From web](http://i.imgur.com/DCQv0mt.gif)
+
+If you need help installing or help with git take a look at [INSTALL.md](https://github.com/MrClan/RealTimePolls/INSTALL.md)
