@@ -1,13 +1,19 @@
-var express        = require('express');
-var router         = express.Router();
+var express = require('express');
+var router = express.Router();
 var http = require('http');
 var app = express();
 var server = http.createServer(app);
 var io = require('socket.io').listen(server);
-var pollsRoutes     = require('./polls');
+var pollsRoutes = require('./polls');
+var url = require('url');
+var fs = require('fs');
 
 router.get('/', function(req,res){
-	res.send('Voters Poll')
+	// Reads index html in templates and returns it with header
+	fs.readFile('./templates/index.html',function(err,data){
+		res.write(data);
+		res.end()
+	})
 })
 // Main App Page
 router.get('/', pollsRoutes.index);
