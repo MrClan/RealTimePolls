@@ -2,9 +2,9 @@
 
 ## Table of Contents
 - [Installing RTP](#Installing-Real-Time-Polls)
-	* [Basic information](#Basics)
-	* [Git](#Git)
-	* [Application Setup](#Applcation-setup)
+	* [Basic information](#basics)
+	* [Git](git)
+	* [Application Setup](#applcation-setup)
 
 ## Basics
 RealTimePolls (RTP) is a javascript application that uses the node.js framework as an backend. To have an live connection with the users RTP uses Socket.IO.
