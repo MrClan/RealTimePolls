@@ -44,10 +44,10 @@ git push
 ```
 
 ## Application setup
-
+(This setup was tested with *Fedora 15* if something is wrong you can change it or make an issue)
 If you use ubuntu you can just change dnf with apt-get.
 It could be that some libraries have a different name.
-You can use apt-get search 'lib name' to search it.
+You can use apt-get search 'lib name' to search these libraries.
 
 First you need to install javascript, node.js ,npm, mongodb and mongodb-server.
 ```
@@ -67,7 +67,7 @@ Because of the package.json file npm knows which libraries to install
 Before you can run RTP you need to run the mongodb server.
 This can be done with
 ```
-
+sudo systemctl start mongod
 ```
 After you started the mongodb it is finally time to start RTP.
 Go to RealTimePolls and
