@@ -1,6 +1,10 @@
 # Installing Real Time Polls
 
 ## Table of Contents
+-[Installing RTP](#Installing-Real-Time-Polls)
+	*[Basic information](#Basics)
+	*[Git](#Git)
+	*[Application Setup](#Applcation-setup)
 
 ## Basics
 RealTimePolls (RTP) is a javascript application that uses the node.js framework as an backend. To have an live connection with the users RTP uses Socket.IO.
@@ -39,7 +43,7 @@ And finally push your results to your forked repository
 git push
 ```
 
-## Application installation
+## Application setup
 
 If you use ubuntu you can just change dnf with apt-get.
 It could be that some libraries have a different name.
