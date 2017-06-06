@@ -12,4 +12,4 @@ The major work involved will be for the following:
 
 ![Cover Image Picked Randomly From web](http://i.imgur.com/DCQv0mt.gif)
 
-If you need help installing or help with git take a look at [INSTALL.md](https://github.com/MrClan/RealTimePolls/INSTALL.md)
+If you need help installing or help with git take a look at [INSTALL.md](https://github.com/MrClan/RealTimePolls/blob/master/INSTALL.md)
